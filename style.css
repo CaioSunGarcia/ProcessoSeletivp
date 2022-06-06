@@ -1,0 +1,122 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+:root {
+    --cor-principal: #FFB41D;
+    --cor-navbar: #000;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-principal{
+    width: 130px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.navbar-nav{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 50px;
+
+}
+
+.navbar-brand, .nav-link{
+    color: #000;
+text-decoration: none;
+font-size: 20px;
+}
+
+.navbar-brand, .nav-link:hover{
+    color: #4F4F4F;
+    transition: 0.3s;
+}
+
+.nav-principal{
+    font-weight: bold;
+}
+
+.nav-item{
+    position: relative;
+    margin: 20px
+}
+
+.navbar-nav::after{
+    content: "";
+    position: absolute;
+    left: -85%;
+    background-color: var(--cor-principal);
+    padding: .1rem 1rem ;
+    width: 96%;
+    top:186px;
+}
+
+
+
+.nav-link-politics{
+    font-size: 12px;
+    
+}
+
+
+.nav-list{
+    color: #000;
+}
+
+#home {
+    display: flex;
+}
+
+
+.swiper{
+    width: 1000px;
+    height: 600px;
+}
+
+/*==========EMPREENDIMENTO==========*/
+
+.empreendimento{
+    display: flex;
+    justify-content: space-between;
+}
+
+.empreendimento-parte1{
+    display: flex;
+    margin-left: 350px;
+    flex-direction: column;
+}
+
+.empreendimento-img-pequena{
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.empreendimento-img-grande{
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+}
+
+.empreendimento-titulo{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.empreendimento-texto{
+    font-size: 15px;
+    font-weight: 300;
+}

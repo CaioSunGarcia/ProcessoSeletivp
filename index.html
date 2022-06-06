@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterNit</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="index.js" defer></script>
+
+</head>
+
+<body>
+    
+    <div class="content">
+        <header class="navbar">
+            <div class="logo">
+                <img class="logo-principal" src="assets/img/logo/logo.png.png" alt="">
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-12">
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active nav-principal" aria-current="page" href="#">Home</a>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">O empreendimento</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Planta</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Localização</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled nav-link-politics" href="#" tabindex="-1" aria-disabled="true">Politicas de privacidade</a>
+                            </li>
+                          </ul>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <div class="content">
+            <main>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="carrossel">
+                                <div class="swiper swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <!-- Slides -->
+                                        <div class="swiper-slide"><img class="img-carrossel" src="assets/img/imgHome.png" alt=""></div>
+                                        <div class="swiper-slide"><img class="img-carrossel" src="assets/img/imgHomeSecundaria.png" alt=""></div>
+                                        <div class="swiper-slide"><img class="img-carrossel" src="assets/img/imgHomeTerciaria.png" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="empreendimento">
+        <div class="empreendimento-parte1">
+            <h1 class="empreendimento-titulo">O empreendimento</h1>
+            <h3 class="empreendimento-texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, vitae, molestias,
+                distinctio a nostrum natus laboriosam ut consectetur consequatur quisquam
+                 at atque molestiae eius deserunt hic ipsa voluptatibus minus tenetur.</h3>
+                 <div ><img class="empreendimento-img-pequena" src="assets/img/imgEmpreendSecundaria.png" alt=""></div>
+        </div>
+             <div ><img class="empreendimento-img-grande" src="assets/img/imgEmpreendPrincipal.png" alt=""></div>
+    </div>
+    <div class="plantas">
+        <div><img src="assets/img/imgPlanta3Quartos.png" alt="" class="planta-img"></div>
+        <h1>Plantas</h1>
+        <button></button>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js' const swiper = new Swiper(`.carrossel`);
+    </script>
+</body>
+
+
+
+</html>
